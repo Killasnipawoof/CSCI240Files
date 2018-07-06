@@ -1,0 +1,62 @@
+body {
+	margin-right: auto;
+	margin-left: auto;
+	width: 330px;
+}
+
+#main_panel {
+	margin-right: auto;
+	margin-left: auto;
+	width: 330px;
+	border: 2px solid;
+	border-radius: 25px;
+	background-color:#FEF1EC;		
+}
+
+#key_pad {
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+}
+
+.key {
+	width: 100px;
+	height: 100px;
+	float: left;
+	font-size: 80px;
+	text-align: center;
+	margin: 1px;
+	
+}
+
+.rounded {
+	border: 2px solid;
+	border-radius: 25px;
+	background-color: white;	
+}
+
+#results_panel {
+	clear: both;
+	width: 320px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#display_field {
+	float: none;
+	border: 2px solid;
+	border-radius: 25px;
+	padding: 3px;
+	margin: 6px;
+	background-color: white;
+}
+
+img {
+	width: 320px;
+}
+
+
+

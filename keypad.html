@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="keypad.css">
+		<title>Database Access Point</title>
+		<script src="keypad.js"></script>
+	</head>
+	<body>
+<p></p>
+
+<p>Enter an access code in the keypad below. If you type in the correct access code, you will be redirected to the target URL. &nbsp;If you type in an incorrect access code the keys will turn red. <br /><br /></p>
+<div id="main_panel">
+<div id="key_pad">
+<div onclick="number1()" id="div1" class="key rounded">1</div>
+<div onclick="number2()" id="div2" class="key rounded">2</div>
+<div onclick="number3()" id="div3" class="key rounded">3</div>
+<div onclick="number4()" id="div4" class="key rounded">4</div>
+<div onclick="number5()" id="div5" class="key rounded">5</div>
+<div onclick="number6()" id="div6" class="key rounded">6</div>
+<div onclick="number7()" id="div7" class="key rounded">7</div>
+<div onclick="number8()" id="div8" class="key rounded">8</div>
+<div onclick="number9()" id="div9" class="key rounded">9</div>
+<div id="div_left" class="key">&nbsp;</div>
+<div onclick="number0()" id="div0" class="key rounded">0</div>
+<div id="div_right" class="key">&nbsp;</div>
+</div>
+<div id="results_panel">
+<div id="display_field"><span id="data_entry">Enter Code</span></div>
+<input type="button" id="submit_button" value="Confirm" /> <input type="button" id="reset_button" value="Reset" /></div>
+</div>
+</body>
+</html>
